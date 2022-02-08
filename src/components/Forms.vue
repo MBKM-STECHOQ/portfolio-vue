@@ -1,14 +1,22 @@
 <template>
   <div>
     <p class="paragraph">Forms</p>
-    <p class="paragraph blue">Blue</p>
     <form @submit.prevent="submitForms()">
-      <input type="text" v-model.lazy="input.name">
-      <br>
-      <input type="text" v-model="input.email">
-      <br>
-      <textarea v-model="input.message" id="" cols="30" rows="10"></textarea>
-      <br>
+      <div class="form-input">
+        <label for="name">Name</label>
+        <br>
+        <input id="name" placeholder="name" name="name" type="text" v-model="input.name">
+      </div>
+      <div class="form-input">
+        <label for="email">Email</label>
+        <br>
+        <input id="email" placeholder="email@domain.com" type="email" v-model="input.email">
+      </div>
+      <div class="form-input">
+        <label for="message">Message</label>
+        <br>
+        <textarea v-model="input.message" placeholder="message here..." id="" rows="10"></textarea>
+      </div>
       <button type="submit">Submit</button>
     </form>
     <hr>
@@ -57,8 +65,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.paragraph
-  color: red
-  &.blue
-    color: blue
+input, textarea
+  width: 250px
+
+label input, label textarea
+  display: block
+
+.form-input
+  margin: 10px 0
 </style>
