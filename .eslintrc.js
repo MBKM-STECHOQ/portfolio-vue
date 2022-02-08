@@ -27,7 +27,8 @@ module.exports = {
       files: ['*.vue', '*.js'],
       rules: {
         // override rules
-        'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+        // 'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
+        'linebreak-style': 0,
       },
     },
   ],
