@@ -1,6 +1,12 @@
 <template>
   <div id="detail">
-    <h1>{{projectById.name}}</h1>
+    <article v-if="projectById !== undefined">
+      <h1>{{projectById.name}}</h1>
+      <p>{{projectById.description}}</p>
+    </article>
+    <article v-else>
+      <h1>Project Not Found</h1>
+    </article>
   </div>
 </template>
 
