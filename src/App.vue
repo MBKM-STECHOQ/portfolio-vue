@@ -2,7 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <!-- to connect and redirect to designed route / Programmatic Route -->
+      <router-link :to="{ name: 'Contact' }">Contact</router-link>
     </div>
     <router-view/>
   </div>
