@@ -3,7 +3,9 @@
     <h3>List Projects</h3>
     <div id="projects">
       <div class="project" v-for="(project, index) in getProject" :key="index">
-        <h4>{{project.name}}</h4>
+        <router-link :to="{ name: 'DetailProject', params: { id: project.id } }">
+          <h4>{{project.name}}</h4>
+        </router-link>
       </div>
     </div>
   </div>

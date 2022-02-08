@@ -39,6 +39,12 @@ const routes = [
       },
     ],
   },
+  // dynamic import
+  {
+    path: '/project/:id',
+    name: 'DetailProject',
+    component: () => import(/* webpackChunkName: "profile" */ '../views/DetailProject'),
+  },
 ];
 
 const router = new VueRouter({

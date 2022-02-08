@@ -27,7 +27,7 @@ module.exports = {
       files: ['*.vue', '*.js'],
       rules: {
         // override rules
-        'max-len': 'off',
+        'max-len': 'off', // disable max-len rule
         // 'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
         'linebreak-style': 0,
       },
