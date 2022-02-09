@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47d8221ffb9038e45b1f",
+    "revision": "72818f203d33c4d19d04",
     "url": "/portfolio-vue/css/app.f9b1c236.css"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-vue/css/contact.cfbeb8db.css"
   },
   {
-    "revision": "8a0b6312ef4740ae2224",
+    "revision": "af6248b8929af5d22817",
     "url": "/portfolio-vue/css/profile.de8da5f0.css"
   },
   {
-    "revision": "6836078f8bb674bf355ce05c8f884e7e",
+    "revision": "f2beef1f7ecbcc171ff687afa70d2369",
     "url": "/portfolio-vue/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-vue/js/about.33c9b457.js"
   },
   {
-    "revision": "47d8221ffb9038e45b1f",
-    "url": "/portfolio-vue/js/app.57acf810.js"
+    "revision": "72818f203d33c4d19d04",
+    "url": "/portfolio-vue/js/app.44eae1f6.js"
   },
   {
     "revision": "ecda6f5c34b643e2aff3",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-vue/js/contact.896fae74.js"
   },
   {
-    "revision": "8a0b6312ef4740ae2224",
-    "url": "/portfolio-vue/js/profile.f11a4348.js"
+    "revision": "af6248b8929af5d22817",
+    "url": "/portfolio-vue/js/profile.ae2b9a9f.js"
   },
   {
     "revision": "5591c04851ae28b5bfc2",
