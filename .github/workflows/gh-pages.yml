@@ -46,11 +46,9 @@ jobs:
       - name: Yarn install
         if: steps.yarn-cache.outputs.cache-hit != 'true' || steps.cache-node-modules.outputs.cache-hit != 'true'
         run: |
-          yarn policies set-version
           yarn
       - name: Build Site
         run: |
-          yarn policies set-version
           yarn build
 
       - name: Deploy Site

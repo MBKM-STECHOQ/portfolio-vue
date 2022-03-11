@@ -21,3 +21,12 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# yarn non zero install
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
